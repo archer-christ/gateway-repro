@@ -1,0 +1,3 @@
+start locator --name=clusterA_locator --port=9999 --properties-file=../resources/clusterA_locator.properties
+start server --name=clusterA_server1 --server-port=10336 --properties-file=../resources/clusterA-server.properties
+

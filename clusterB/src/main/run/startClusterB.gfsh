@@ -1,0 +1,2 @@
+start locator --name=clusterB_locator --port=7777 --properties-file=../resources/clusterB_locator.properties
+start server --name=clusterB_server1 --server-port=10338 --properties-file=../resources/clusterB-server.properties
