@@ -13,12 +13,6 @@
         </disk-dirs>
     </disk-store>
 
-    <!--<disk-store name="clusterARegionDiskStore" max-oplog-size="500">-->
-        <!--<disk-dirs>-->
-            <!--<disk-dir dir-size="1024">/Users/smanvi/disc_store/clusterA/region_related</disk-dir>-->
-        <!--</disk-dirs>-->
-    <!--</disk-store>-->
-
 
     <region name="Customer" refid="PARTITION_PERSISTENT">
         <region-attributes gateway-sender-ids="clusterASender" enable-gateway="true"

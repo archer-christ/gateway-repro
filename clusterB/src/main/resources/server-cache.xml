@@ -6,8 +6,6 @@
 
     <gateway-receiver start-port="42410" end-port="42424"/>
 
-
-
     <disk-store name="clusterBRegionDiskStore" max-oplog-size="500">
         <disk-dirs>
             <disk-dir dir-size="1024">/Users/smanvi/disc_store/clusterB/region_related</disk-dir>

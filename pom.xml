@@ -14,4 +14,23 @@
     </modules>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.gemstone.gemfire</groupId>
+            <artifactId>gemfire</artifactId>
+            <version>8.2.1</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring-libs-release</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>gemfire-repository</id>
+            <name>Gemfire Repository</name>
+            <url>http://dist.gemstone.com/maven/release</url>
+        </repository>
+    </repositories>
 </project>
